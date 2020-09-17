@@ -1,0 +1,28 @@
+{
+  "name": "build-sandbox",
+  "version": "0.1.0",
+  "description": "Sandbox to play with React build tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorKosenko/build-sandbox.git"
+  },
+  "author": "Viktor Kosenko <kosenkovv89@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorKosenko/build-sandbox/issues"
+  },
+  "homepage": "https://github.com/ViktorKosenko/build-sandbox#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
